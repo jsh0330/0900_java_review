@@ -1,0 +1,21 @@
+package test1;
+
+public class Main {
+	public static void main(String[] args) {
+		School school = new School();
+		
+		int[] grade1 = {100, 90, 70};
+		Student st1 = new Student("장서혁", grade1);
+		int[] grade2 = {100, 90, 70};
+		Student st2 = new Student("장서혁", grade2);
+		int[] grade3 = {100, 90, 70};
+		Student st3 = new Student("장서혁", grade3);
+		
+		school.join(st1);
+		
+		school.showStudentList();
+		school.showScoreAvg();
+		
+	}
+
+}

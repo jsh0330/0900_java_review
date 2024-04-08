@@ -1,0 +1,19 @@
+package abstractTest;
+
+public class Main {
+	public static void main(String[] args) {
+		ClassA b = new ClassB();
+		b.method();
+		
+		ClassA a = new ClassA() {
+
+			@Override
+			void method() {
+				System.out.println("익명클래스에서 재정의");
+			}
+			
+		};
+		System.out.println(a);
+		System.out.println(b);
+	}
+}

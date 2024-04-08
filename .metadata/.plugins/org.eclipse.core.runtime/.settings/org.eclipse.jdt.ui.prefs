@@ -1,0 +1,12 @@
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="animal.Animal"><rhs name\="animal.Animal"/></lhs><lhs name\="java.util.Iterator"><rhs name\="java.util.Scanner"/></lhs><lhs name\="java.io.Closeable"><rhs name\="java.util.Scanner"/></lhs><lhs name\="java.lang.AutoCloseable"><rhs name\="java.util.Scanner"/></lhs><lhs name\="libraryTest2.Library"><rhs name\="libraryTest2.Library"/></lhs><lhs name\="abstractTest.ClassA"><rhs name\="abstractTest.ClassB"/></lhs><lhs name\="abstractTest.ClassB"><rhs name\="abstractTest.ClassB"/></lhs><lhs name\="interTest.ExtendedShape"><rhs name\="interTest.ResizableCircle"/></lhs><lhs name\="interTest.Shape"><rhs name\="interTest.ResizableCircle"/></lhs><lhs name\="interTest.Circle"><rhs name\="interTest.ResizableCircle"/></lhs><lhs name\="interTest.ResizableCircle"><rhs name\="interTest.ResizableCircle"/></lhs><lhs name\="test1.School"><rhs name\="test1.School"/></lhs><lhs name\="test1.Student"><rhs name\="test1.Student"/></lhs></history>
+content_assist_number_of_computers=17
+content_assist_proposals_background=255,255,255
+content_assist_proposals_foreground=0,0,0
+eclipse.preferences.version=1
+org.eclipse.jdt.internal.ui.navigator.layout=2
+org.eclipse.jdt.internal.ui.navigator.librariesnode=true
+org.eclipse.jdt.ui.formatterprofiles.version=23
+spelling_locale_initialized=true
+typefilter_migrated_2=true
+useAnnotationsPrefPage=true
+useQuickDiffPrefPage=true

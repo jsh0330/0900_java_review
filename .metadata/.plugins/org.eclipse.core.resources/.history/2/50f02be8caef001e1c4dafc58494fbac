@@ -1,0 +1,17 @@
+package test1;
+
+public class Main {
+	public static void main(String[] args) {
+		School school = new School();
+		
+		int[] grade = {100, 90, 70};
+		Student st1 = new Student("장서혁", grade);
+		
+		school.join(st1);
+		
+		school.showStudentList();
+		st1.scoreAvg();
+		
+	}
+
+}

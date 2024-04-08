@@ -1,0 +1,26 @@
+package libraryTest;
+
+public class Book {
+	//필드
+	int bookNumber;
+	String bookName;
+	boolean bookStatus;
+	
+	//생성자
+	public Book(String bookName) {
+		// 책번호는 도서관에 등록을하면 부여
+		this.bookNumber = 0;
+		this.bookName = bookName;
+		this.bookStatus = true;
+	}
+	
+	// 메소드-책 정보 보기
+	void showBookInfo() {
+		System.out.println(bookNumber + ". " + bookName);
+		if(bookStatus) {
+			System.out.println("대여 가능");
+			return;
+		}
+		System.out.println("대여 불가능");
+	}
+}

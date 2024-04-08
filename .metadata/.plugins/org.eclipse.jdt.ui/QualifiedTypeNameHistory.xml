@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="finalTest.SportsCar"/>
+    <fullyQualifiedTypeName name="animal.Animal"/>
+    <fullyQualifiedTypeName name="libraryTest2.Library"/>
+    <fullyQualifiedTypeName name="abstractTest.ClassB"/>
+    <fullyQualifiedTypeName name="java.lang.FunctionalInterface"/>
+    <fullyQualifiedTypeName name="interTest.Circle"/>
+    <fullyQualifiedTypeName name="interTest.ExtendedShape"/>
+    <fullyQualifiedTypeName name="interTest.ResizableCircle"/>
+    <fullyQualifiedTypeName name="java.lang.reflect.Array"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="test1.School"/>
+    <fullyQualifiedTypeName name="test1.Student"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="throwTest.MyException"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
+</qualifiedTypeNameHistroy>

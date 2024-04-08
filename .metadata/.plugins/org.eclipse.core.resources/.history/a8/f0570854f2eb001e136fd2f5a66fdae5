@@ -1,0 +1,19 @@
+package libraryTest2;
+
+public class Library {
+	Book[] libraryBookList;
+	Member[] libraryMemberList;
+	int libraryBookCnt;
+	int libraryMemberCnt;
+	
+	public Library() {
+		super();
+		this.libraryBookList = new Book[20];
+		this.libraryBookList = new Member[30];
+		this.libraryBookCnt = 0;
+		this.libraryMemberCnt = 0;
+	}
+	
+	
+
+}

@@ -1,0 +1,14 @@
+package libraryTest2;
+
+public class Main {
+	public static void main(String[] args) {
+		// 도서관 생성
+		Library korea = new Library();
+		
+		// 회원생성
+		Member m1 = new Member("철수", "010-1111-1111", "강남구");
+		Member m2 = new Member("훈이", "010-2222-2222", "동작구");
+		Member m3 = new Member("짱구", "010-3333-3333", "송파구");
+		
+	}
+}

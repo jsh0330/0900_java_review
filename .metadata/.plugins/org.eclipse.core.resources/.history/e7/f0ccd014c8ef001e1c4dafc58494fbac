@@ -1,0 +1,23 @@
+package test1;
+
+public class School {
+//	필드   학생배열   students
+//	   	학생수   studentCount
+
+	Student[] students;
+	int studentCount;
+
+//	생성자    기본생성자 매개변수가 없는 생성자(단, 초기값은 반드시 지정)
+	public School() {
+		this.students = new Student[30];
+		this.studentCount = 0;
+	}
+	
+//	   
+//	메소드   학생 등록 메소드 registerStudent
+//	      
+//	   학생 목록 보기 메소드 showStudentList
+//	   
+//	   성적 평균 보기 메소드 showScoreAvg
+
+}

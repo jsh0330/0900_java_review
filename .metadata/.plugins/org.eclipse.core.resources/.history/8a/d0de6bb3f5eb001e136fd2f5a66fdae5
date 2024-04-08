@@ -1,0 +1,56 @@
+package libraryTest2;
+
+public class Library {
+	Book[] libraryBookList;
+	Member[] libraryMemberList;
+	int libraryBookCnt;
+	int libraryMemberCnt;
+	
+	public Library() {
+		super();
+		this.libraryBookList = new Book[20];
+		this.libraryMemberList = new Member[30];
+		this.libraryBookCnt = 0;
+		this.libraryMemberCnt = 0;
+	}
+	
+	boolean join(Member member) {
+		if(this.libraryMemberCnt > 29) {
+			return false;
+		}
+		this.libraryMemberList[this.libraryMemberCnt] = member;
+		member.memberNumber = this.libraryMemberCnt;
+		this.libraryMemberCnt++;
+		
+		return true;
+	}
+	
+	boolean bookRegister(Book book) {
+		if(this.libraryBookCnt > 19) {
+			return false;
+		}
+		book.bookNumber = this.libraryBookCnt;
+		this.libraryBookList[this.libraryBookCnt] = book;
+		this.libraryBookCnt++;
+		return true;
+	}
+	
+	boolean bookRental(int bookNumber, Member member) {
+		Book book = this.libraryBookList[bookNumber];
+		
+		if(book.bookStatus) {
+			for(int i = 0; i < 3; i++) {
+				if(member.memberBookList[i] == null) {
+					book.bookStatus = false;
+					member.memberBookList[i] = book;
+					return true;
+				}
+			}
+		}
+		return false;
+	}
+	
+	
+	
+
+}

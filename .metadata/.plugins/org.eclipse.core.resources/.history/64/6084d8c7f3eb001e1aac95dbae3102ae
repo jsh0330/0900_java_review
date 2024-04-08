@@ -1,0 +1,74 @@
+package libraryTest2;
+
+public class Library {
+//	클래스명 Library
+//	필드 	보유한책(최대20권)	- 배열 Book[]
+//		보유회원(최대 30명) - 배열	Member[]
+//		현재 가입한 회원수
+//		현재 등록된 책 수
+	
+	//필드
+	Book[] libraryBookList;
+	Member[] libraryMemberList;
+	int libraryBookCnt;
+	int libraryMemberCnt;
+
+	//생성자
+	public Library() {
+		super();
+		this.libraryBookList = new Book[20];
+		this.libraryMemberList = new Member[30];
+		this.libraryBookCnt = 0;
+		this.libraryMemberCnt = 0;
+	}
+	
+//	메소드
+	//회원가입하기		Member클래스
+	boolean join(Member member) {
+		//하나의 도서관은 회원을 30명까지만 받을 수 있다
+		//29보다 크다면 false
+		if(this.libraryMemberCnt > 29) {
+			return false;
+		}
+		//memberList[0] = member; 
+		this.libraryMemberList[this.libraryMemberCnt] = member;
+		member.memberNumber = this.libraryMemberCnt;
+		this.libraryMemberCnt++;
+		return true;
+	}
+	
+	//책등록하기		Book클래스 
+	boolean bookRegister(Book book) {
+		if(this.libraryBookCnt > 19) {
+			return false;
+		}
+		//책번호를 부여한다 //책번호는 0부터 시작한다
+		book.bookNumber = this.libraryBookCnt;
+		this.libraryBookList[this.libraryBookCnt] = book;
+		return true;
+	}
+	
+	
+	
+	//대여해주기		
+	//대여책돌려받기		
+	//등록된 회원 목록보기	Member클래스
+	//등록된 책 목록보기	Book클래스
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
